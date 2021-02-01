@@ -13,3 +13,9 @@ class Config(object):
 
     # Get this api from https://www.remove.bg/b/background-removal-api
     RemoveBG_API = os.environ.get("RemoveBG_API", "")
+    
+    # get a token from https://chatbase.com
+    CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
+    
+    # Update channel for Force Subscribe
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
