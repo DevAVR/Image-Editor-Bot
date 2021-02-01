@@ -3,13 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 from helper_funcs.chat_base import TRChatBase
 
-
-
 @Client.on_message(filters.photo & filters.private)
-@Client.on_message(filters.photo & filters.private)
-async def photo(client: Client, message: Message):
-
-    
 async def photo(client: Client, message: Message):
     if update.from_user.id in Config.BANNED_USERS:
         await bot.send_message(
