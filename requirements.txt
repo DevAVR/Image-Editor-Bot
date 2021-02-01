@@ -1,7 +1,6 @@
 NumPy
 tgcrypto
 Pillow
-pyrogram
 glitch_this
 requests
 pyrogram==1.0.7
