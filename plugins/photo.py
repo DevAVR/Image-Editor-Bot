@@ -1,5 +1,7 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
+from pyrogram.errors import UserNotParticipant, UserBannedInChannel
+from helper_funcs.chat_base import TRChatBase
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["photo"]))
 async def photo(client: Client, message: Message):
