@@ -105,5 +105,5 @@ async def photo(client: Client, message: Message):
             else:
                 try:
                     await message.reply_text("Something went wrong!", quote=True)
-                    except Exception:
-                        return
+                except Exception:
+                    return
