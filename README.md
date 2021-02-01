@@ -33,7 +33,7 @@
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/click/button.svg)](https://heroku.com/deploy?template=https://github.com/MrBotDeveloper/Image-Editor-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrBotDeveloper/Image-Editor-Bot)
 
 ### Deploy in your vps
 ```sh
