@@ -7,29 +7,28 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/TroJanzHEX/Image-Editor/stargazers">
-    <img src="https://img.shields.io/github/stars/TroJanzHEX/Image-Editor?style=social">
+  <a href="https://github.com/MrBotDeveloper/Image-Editor-Bot/stargazers">
+    <img src="https://img.shields.io/github/stars/MrBotDeveloper/Image-Editor-Bot?style=social">
 
   </a>
   
-  <a href="https://github.com/TroJanzHEX/Image-Editor/fork">
-    <img src="https://img.shields.io/github/forks/TroJanzHEX/Image-Editor?label=Fork&style=social">
+  <a href="https://github.com/MrBotDeveloper/Image-Editor-Bot/fork">
+    <img src="https://img.shields.io/github/forks/MrBotDeveloper/Image-Editor-Bot?label=Fork&style=social">
 
   </a>  
 </p>
 
-[![TroJanz](https://img.shields.io/badge/TroJanzHEX-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/TroJanzHEX)  
+[![MrBotDeveloper](https://img.shields.io/badge/MrBotDeveloper-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/Mr_Bot_Developer)  
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![TroJanz](https://img.shields.io/badge/TroJanzHEX-Support-red?style=flat&logo=telegram)](https://telegram.dog/TroJanzSupport)  [![TroJanz](https://img.shields.io/badge/TroJanzHEX-Website-red?style=flat&logo=CodersRank)](https://TroJanzHEX.me)  
+[![MrBotDeveloper Support](https://img.shields.io/badge/MrBotDeveloper-Support-red?style=flat&logo=telegram)](https://telegram.dog/Mr_Developer_Support)  
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/TroJanzHEX/Image-Editor/blob/main/COPYING)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TroJanzHEX/Image-Editor)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/TroJanzHEX/Image-Editor/blob/main/COPYING)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/MrBotDeveloper/Image-Editor-Bot)
 
 
 
 
 
 #### An open source image editor which can manipulate an image in many ways!
-#### If you need any more modes in repo or If you find out any bugs, mention in @TroJanzSupport
 
 ## Installation
 
