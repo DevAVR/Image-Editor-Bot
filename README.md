@@ -33,11 +33,11 @@
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrBotDeveloper/Image-Editor-Bot)
+[![Deploy](https://www.herokucdn.com/click/button.svg)](https://heroku.com/deploy?template=https://github.com/MrBotDeveloper/Image-Editor-Bot)
 
 ### Deploy in your vps
 ```sh
-git clone https://github.com/TroJanzHEX/Image-Editor
+git clone https://github.com/MrBotDeveloper/Image-Editor-Bot
 cd Image-Editor
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
