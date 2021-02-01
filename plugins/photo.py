@@ -13,10 +13,6 @@ from helper_funcs.chat_base import TRChatBase
 
 @Client.on_message(filters.photo & filters.private)
 async def photo(client: Client, message: Message):
-    if update.from_user.id in Config.BANNED_USERS:
-        await bot.send_message(chat_id=update.chat.id,text=Translation.BANNED_USER_TEXT,reply_to_message_id=update.message_id)
-        return
-
     TRChatBase(update.from_user.id, update.text, "photo")
     update_channel = Config.UPDATE_CHANNEL
 
