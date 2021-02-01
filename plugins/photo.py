@@ -14,7 +14,7 @@ from helper_funcs.chat_base import TRChatBase
 @Client.on_message(filters.photo & filters.private)
 async def photo(client: Client, message: Message):
   TRChatBase(update.from_user.id, update.text, "photo")
-    try:
+  try:
         await client.send_message(
                  chat_id=message.chat.id,
                  text="Select your required mode from below!ㅤㅤ",
@@ -54,7 +54,7 @@ async def photo(client: Client, message: Message):
             ),
             reply_to_message_id=message.message_id,
         )
-    except Exception as e:
+  except Exception as e:
         print("photomarkup error - " + str(e))
         if "USER_IS_BLOCKED" in str(e):
             return
