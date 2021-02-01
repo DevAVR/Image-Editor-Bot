@@ -1,6 +1,3 @@
-# By @TroJanzHEX
-
-
 import os
 
 
@@ -19,3 +16,6 @@ class Config(object):
     
     # Update channel for Force Subscribe
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    
+    # Banned Unwanted Members..
+    BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
