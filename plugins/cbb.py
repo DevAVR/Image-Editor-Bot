@@ -111,7 +111,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "Updates Channel", url="https://t.me/Mr_Bot_Developer"
                     )
                 ],
             ]
@@ -131,7 +131,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "Support Group", url="https://t.me/Mr_Developer_Support"
                     )
                 ],
             ]
@@ -148,7 +148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "UPDATES CHANNEL", url="https://t.me/Mr_Bot_Developer"
                     )
                 ],
             ]
@@ -178,13 +178,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="1", callback_data="normalglitch1"),
-                        InlineKeyboardButton(text="2", callback_data="normalglitch2"),
-                        InlineKeyboardButton(text="3", callback_data="normalglitch3"),
+                        InlineKeyboardButton(text="Low", callback_data="normalglitch1"),
+                        InlineKeyboardButton(text="Normal", callback_data="normalglitch2"),
+                        InlineKeyboardButton(text="Medium", callback_data="normalglitch3"),
                     ],
                     [
-                        InlineKeyboardButton(text="4", callback_data="normalglitch4"),
-                        InlineKeyboardButton(text="5", callback_data="normalglitch5"),
+                        InlineKeyboardButton(text="Ultra", callback_data="normalglitch4"),
+                        InlineKeyboardButton(text="Super Ultra", callback_data="normalglitch5"),
                     ],
                 ]
             ),
@@ -195,13 +195,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="1", callback_data="scanlineglitch1"),
-                        InlineKeyboardButton(text="2", callback_data="scanlineglitch2"),
-                        InlineKeyboardButton(text="3", callback_data="scanlineglitch3"),
+                        InlineKeyboardButton(text="Low", callback_data="scanlineglitch1"),
+                        InlineKeyboardButton(text="Normal", callback_data="scanlineglitch2"),
+                        InlineKeyboardButton(text="Medium", callback_data="scanlineglitch3"),
                     ],
                     [
-                        InlineKeyboardButton(text="4", callback_data="scanlineglitch4"),
-                        InlineKeyboardButton(text="5", callback_data="scanlineglitch5"),
+                        InlineKeyboardButton(text="Ultra", callback_data="scanlineglitch4"),
+                        InlineKeyboardButton(text="Super Ultra", callback_data="scanlineglitch5"),
                     ],
                 ]
             ),
@@ -212,8 +212,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="box", callback_data="box"),
-                        InlineKeyboardButton(text="normal", callback_data="normal"),
+                        InlineKeyboardButton(text="Box", callback_data="box"),
+                        InlineKeyboardButton(text="Normal", callback_data="normal"),
                     ],
                     [InlineKeyboardButton(text="Gaussian", callback_data="gas")],
                 ]
