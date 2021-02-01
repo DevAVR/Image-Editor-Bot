@@ -1,4 +1,3 @@
-# By @TroJanzHEX
 from PIL import Image, ImageOps
 import shutil
 import os
