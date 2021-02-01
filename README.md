@@ -52,14 +52,5 @@ python3 bot.py
 * RemoveBG_API  - From [RemoveBG](https://www.remove.bg/b/background-removal-api)
 
 ## Credits
-## Credits
-## Credits
-## Credits
-## Credits
-## Credits
-## Credits
-## Credits
-## Credits
-## Credits
 
-[![MrBotDeveloper Support](https://img.shields.io/badge/MrBotDeveloper-Support-red?style=flat&logo=telegram)](https://telegram.dog/Mr_Developer_Support)
+[![TroJanzHEX](https://img.shields.io/badge/TroJanz-HEX-blue?style=flat&logo=github)](https://github.com/TroJanzHEX/Image-Editor)
