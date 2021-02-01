@@ -33,6 +33,11 @@
             "value": "",
             "required": false
         },
+        "BANNED_USERS": {
+            "description": "Banned Unwanted members..",
+            "value": "",
+            "required": false
+        },
         "RemoveBG_API": {
             "description": "Get this api from https://www.remove.bg/b/background-removal-api",
             "value": "",
