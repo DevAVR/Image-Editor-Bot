@@ -32,9 +32,9 @@ async def photo(client: Client, message: Message):
         except Exception:
             await update.reply_text("Something Wrong. Contact my Support Group")
             return
-        TRChatBase(update.from_user.id, update.text, "photo")
-        try:
-            await client.send_message(
+    TRChatBase(update.from_user.id, update.text, "photo")
+    try:
+        await client.send_message(
                  chat_id=message.chat.id,
                  text="Select your required mode from below!ㅤㅤ",
                  reply_markup=InlineKeyboardMarkup(
@@ -82,3 +82,4 @@ async def photo(client: Client, message: Message):
                     await message.reply_text("Something went wrong!", quote=True)
                 except Exception:
                     return
+
