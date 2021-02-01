@@ -29,11 +29,10 @@
             "value": ""
         },
         "UPDATE_CHANNEL": {
-      "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
-      "value": "",
+            "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
+            "value": "",
             "required": false
-
-},
+        },
         "RemoveBG_API": {
             "description": "Get this api from https://www.remove.bg/b/background-removal-api",
             "value": "",
