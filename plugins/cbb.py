@@ -1,4 +1,3 @@
-# By @TroJanzHEX
 from image.edit_1 import (  # pylint:disable=import-error
     bright,
     mix,
