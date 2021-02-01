@@ -65,6 +65,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         ),
                     ],
                     [InlineKeyboardButton(text="STICKER", callback_data="rmbgsticker")],
+                    [InlineKeyboardButton(text="BACK 🔙", callback_data="photo")],
                 ]
             ),
         )
