@@ -1,10 +1,6 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
 
-
-@Client.on_message(filters.photo & filters.private)
-async def photo(client: Client, message: Message):
-    
 @pyrogram.Client.on_message(pyrogram.filters.command(["photo"]))
 async def photo(client: Client, message: Message):
     if update.from_user.id in Config.BANNED_USERS:
