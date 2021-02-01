@@ -12,6 +12,7 @@ from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 from helper_funcs.chat_base import TRChatBase
 
 @Client.on_message(filters.photo & filters.private)
+async def photo(client: Client, message: Message):
     TRChatBase(update.from_user.id, update.text, "photo")
     update_channel = Config.UPDATE_CHANNEL
 
@@ -35,7 +36,6 @@ from helper_funcs.chat_base import TRChatBase
         except Exception:
             await update.reply_text("Something Wrong. Contact my Support Group")
             return
-async def photo(client: Client, message: Message):
   TRChatBase(update.from_user.id, update.text, "photo")
     try:
         await client.send_message(
