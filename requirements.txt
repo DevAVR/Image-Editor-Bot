@@ -5,3 +5,4 @@ pyrogram
 glitch_this
 requests
 opencv-python-headless
+git+git://github.com/google/chatbase-python.git
