@@ -4,5 +4,6 @@ Pillow
 pyrogram
 glitch_this
 requests
+pyrogram==1.0.7
 opencv-python-headless
 git+git://github.com/google/chatbase-python.git
