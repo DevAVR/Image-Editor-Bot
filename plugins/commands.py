@@ -1,4 +1,4 @@
-# By @TroJanzHEX
+# By @MrBotDeveloper
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
 from script import script  # pylint:disable=import-error
@@ -44,8 +44,8 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "Updates Channel",
-                            url="https://t.me/Mr_Bot_Developer",
+                            "Support Group",
+                            url="https://t.me/Mr_Developer_Support",
                         )
                     ],
                 ]
@@ -71,7 +71,7 @@ async def about(client, message):
                     [
                         InlineKeyboardButton(
                             "Updates Channel",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            url="https://t.me/Mr_Bot_Developer",
                         )
                     ],
                 ]
