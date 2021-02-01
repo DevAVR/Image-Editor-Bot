@@ -58,11 +58,11 @@ async def photo(client: Client, message: Message):
             await update.reply_text("Something Wrong. Contact my Support Group")
 
             return
-        
-        await client.send_message(
-            chat_id=message.chat.id,
-            text="Select your required mode from below!ㅤㅤ",
-            reply_markup=InlineKeyboardMarkup(
+        except Exception:
+            await client.send_message(
+                 chat_id=message.chat.id,
+                 text="Select your required mode from below!ㅤㅤ",
+                 reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(text="BRIGHT", callback_data="bright"),
