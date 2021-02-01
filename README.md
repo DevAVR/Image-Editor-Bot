@@ -53,7 +53,7 @@ python3 bot.py
 
 ## Credits
 
-[![TroJanzHEX](https://img.shields.io/badge/TroJanz-HEX-blue?style=for-the-badge&logo=heroku)](https://github.com/TroJanzHEX/Image-Editor)
+[![TroJanzHEX](https://img.shields.io/badge/TroJanz-HEX-blue?style=for-the-badge&logo=GitHub)](https://github.com/TroJanzHEX/Image-Editor)
 
   </a>  
 </p>
