@@ -12,7 +12,7 @@ from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 from helper_funcs.chat_base import TRChatBase
 
 @Client.on_message(filters.photo & filters.private)
-async def photo(client: Client, message: Message):
+async def photo(client: Client, message: Message, bot, update):
   TRChatBase(update.from_user.id, update.text, "photo")
   try:
         await client.send_message(
