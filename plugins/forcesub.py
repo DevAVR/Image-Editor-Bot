@@ -33,7 +33,8 @@ from database.database import *
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["photo"]))
 if update.from_user.id in Config.BANNED_USERS:
-  await bot.send_message(
+  then,
+  bot.send_message(
     chat_id=update.chat.id,
     text=Translation.BANNED_USER_TEXT,
     reply_to_message_id=update.message_id
